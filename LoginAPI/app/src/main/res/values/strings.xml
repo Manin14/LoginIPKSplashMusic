@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login API</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="nyoba_api">Nyoba API</string>
+</resources>
