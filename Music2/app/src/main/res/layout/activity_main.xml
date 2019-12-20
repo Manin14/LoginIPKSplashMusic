@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/currentImagePlayID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/captain_america"
+            android:layout_weight="0.2"
+            android:scaleType="fitXY"
+            >
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            >
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/podcastTitleID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                />
+
+
+            <ProgressBar
+                android:id="@+id/progresLoadingID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/podcastTitleID"
+                android:text="@string/app_name">
+
+
+            </ProgressBar>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPodcastListID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
