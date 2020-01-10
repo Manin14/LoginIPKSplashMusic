@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IPK</string>
+    <string name="aplikasi_hitung_ipk">Aplikasi Hitung IPK</string>
+    <string name="nilai_java">Nilai Java</string>
+    <string name="nilai_php">Nilai PHP</string>
+    <string name="api">Nilai API</string>
+    <string name="bersih">Bersih</string>
+    <string name="hitung">Hitung</string>
+
+    <string name="nilai_api">Nilai API</string>
+    <string name="lulus">Lulus</string>
+    <string name="total">Total</string>
+    <string name="total_">Total</string>
+    <string name="nama">Nama</string>
+
+</resources>

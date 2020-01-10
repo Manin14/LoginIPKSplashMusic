@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hasil"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        android:background="#FF5722">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/nilaia"
+            android:layout_margin="10dp"
+            android:id="@+id/id_image_A">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        android:background="#CDDC39">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nama"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#9C27B0"
+                android:layout_marginRight="30dp">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nama"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#9C27B0"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/id_txview_nama"
+                >
+
+            </androidx.appcompat.widget.AppCompatTextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai Java"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#9C27B0">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai Java"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#9C27B0"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/id_txview_nilai_java"
+            >
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nilai_php"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#9C27B0">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nilai_php"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#9C27B0"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/id_txview_nilai_php"
+                >
+
+            </androidx.appcompat.widget.AppCompatTextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nilai_api"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#9C27B0">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nilai_api"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#9C27B0"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/id_txview_nilai_api"
+                >
+
+            </androidx.appcompat.widget.AppCompatTextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#9C27B0">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#9C27B0"
+                android:layout_marginLeft="60dp"
+                android:id="@+id/id_txview_total"
+                >
+
+            </androidx.appcompat.widget.AppCompatTextView>
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lulus"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/custom_button_hitung"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/id_textview_keterangan">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/like"
+            android:layout_marginTop="10dp"
+            android:id="@+id/id_image_lulus">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+    </LinearLayout>
+
+</LinearLayout>
